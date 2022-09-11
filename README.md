@@ -1,3 +1,8 @@
+# Тестовое задание от IdaProject
+ТЕСТОВОЕ ЗАДАНИЕ BACKEND РАЗРАБОТЧИКУ
+
+Необходимо спроектировать апи, на основе фреймворка Django + DRF
+
 # Шаблон тестового задания
 
 ## Техническое задание
@@ -66,7 +71,11 @@ docker-compose exec backend sh
 ```
 Сервис будет доступен по ссылке [http://localhost:8000/admin/login/?next=/admin/](http://localhost:8000/admin/login/?next=/admin/)
 
-----
-О выполнении задания можно уведомить по почте a.kuzmenko@idaproject.com
 
-Так же можете задать вопросы лично мне (Telegram): @egor1344
+# Инструкция по установке проекта:
+
+### 1: Клонируем проект к себе командой: git clone https://contest.idacloud.ru/Pr1mary/backend_task_2.git
+### 2: Переходим в деректорию (core) командой: cd core
+### 3: Запускаем создание контейнера командой: docker-compose build
+### 4: Запускаем контейнеры командой: docker-compose up -d
+### 5: Приложение будет доступно на 8000 порту в Debug-моде.
